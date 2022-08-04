@@ -10,10 +10,19 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## Run Project
+
+In the project directory, you can run
+`ng serve`
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Unit tests
+## Database
+Rest API 'banco-de-dados.json' (Fake Rest API) must be watched with json-server.
 
-Não possui implementação para Testes de Unidade
+Start server JSON
+```bash json-server --watch banco-de-dados.json```
+
+Doc json-server(https://github.com/typicode/json-server)

@@ -1,7 +1,7 @@
-<div class="top">
+<header class="fixed-top">
   <nav class="navbar navbar-light bg-faded">
-    <div class="container">
-      <div class="row">
+    <div id="divTopo" class="container" >
+      <div class="row align-items-start">
         <div class="col-md-4">
           <a class="navbar-brand" [routerLink]="['./']">
             <img src="/assets/logo.png" />
@@ -12,9 +12,12 @@
           placeholder="Pesquise por ofertas..."
           #termoDaPesquisa
           (keyup)="pesquisa(termoDaPesquisa.value)"/>
+          <ul class="list-group">
+            <li class="list-group-item" *ngFor="let oferta of arrayOfertas">{{ oferta.titulo }}</li>
+          </ul>
         </div>
         <div class="col-md-2">
-          <a href="#"><img src="/assets/carrinho.png" /></a>
+          <a href="#" style="position: relative;"><img src="/assets/carrinho.png" /></a>
         </div>        
       </div>     
     </div>
@@ -32,7 +35,7 @@
       </ul>
     </div>
   </div>
-</div>
+</header>
 
 <div class="banner">
   <img src="/assets/banners/img_1.jpg" />

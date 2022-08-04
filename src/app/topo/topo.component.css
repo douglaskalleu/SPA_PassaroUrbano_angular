@@ -1,3 +1,7 @@
+.navbar{
+    background-color: #fff;
+}
+
 .menu {
     background: #006ACB
 }
@@ -11,7 +15,7 @@
 }
 
 .banner {
-    margin-top: auto;
+    margin-top: 120px;
 }
 
 .banner img {
@@ -21,4 +25,12 @@
 
 .active {
     color: #FFF 
+}
+
+.list-group{
+    position: absolute
+}
+
+#divTopo{
+    display: inline;
 }
