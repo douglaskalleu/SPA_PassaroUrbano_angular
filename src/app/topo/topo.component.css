@@ -28,7 +28,8 @@
 }
 
 .list-group{
-    position: absolute
+    position: absolute;
+    z-index: 999;
 }
 
 #divTopo{
