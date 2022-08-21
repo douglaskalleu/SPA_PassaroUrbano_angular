@@ -23,6 +23,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 Rest API 'banco-de-dados.json' (Fake Rest API) must be watched with json-server.
 
 Start server JSON
-```bash json-server --watch banco-de-dados.json```
+
+Run ```json-server --watch banco-de-dados.json```
 
 Doc json-server(https://github.com/typicode/json-server)
